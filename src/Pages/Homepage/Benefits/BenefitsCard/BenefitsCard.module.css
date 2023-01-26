@@ -1,8 +1,8 @@
 .benefitsCard__container:hover {
   background-color: #ebebeb;
-  transition: 0.3s all;
   cursor: pointer;
   transform: scale3d(1.03, 1.03, 1.03);
+  transition: 0.3s transform;
 }
 .benefitsCard__container .benefitsCard__iconContainer {
   background-color: #55e0a3;
