@@ -5,12 +5,12 @@
   margin: 8px auto;
   padding: 10px;
 }
-.navContent__container li a:hover {
-  /* background-color: #80ffdb; */
+.navContent__container li a {
+  font-family: "Poppins", "Times New Roman", Times, serif;
 }
 .navbar__nestedNav {
   border-radius: none;
-  width: 9rem;
+  width: 11rem;
   transition: 0.5s;
 }
 .navbar__nestedNav li {
@@ -20,6 +20,7 @@
   transition: 0.3s;
   cursor: pointer;
   font-weight: 500;
+  font-family: "Poppins", "Times New Roman", Times, serif;
 }
 .navbar__nestedNav li:hover {
   color: #55e0a3;

@@ -1,25 +1,14 @@
 import React from "react";
 import styles from "./Navbar.module.css";
-import { AiFillHome, AiFillInfoCircle } from "react-icons/ai";
-import { BiPlusMedical } from "react-icons/bi";
-import { SiMicrodotblog } from "react-icons/si";
 import { CgLogIn } from "react-icons/cg";
 const Navbar = () => {
   const menuOptions = (
     <>
       <li className="mx-1">
-        <a>
-          <span>
-            <AiFillHome size={20} />
-          </span>{" "}
-          Home
-        </a>
+        <a>Home</a>
       </li>
       <li className="mx-1" tabIndex={0}>
         <a>
-          <span>
-            <BiPlusMedical size={20} />
-          </span>{" "}
           Services
           <svg
             className="fill-current"
@@ -41,20 +30,10 @@ const Navbar = () => {
         </ul>
       </li>
       <li className="mx-1">
-        <a>
-          <span>
-            <SiMicrodotblog size={20} />
-          </span>{" "}
-          Blogs
-        </a>
+        <a>Blogs</a>
       </li>
       <li className="mx-1">
-        <a>
-          <span>
-            <AiFillInfoCircle size={20} />
-          </span>
-          About
-        </a>
+        <a>About</a>
       </li>
       <li className="mx-1">
         <a className="btn btn-secondary">
@@ -67,7 +46,9 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className={`navbar bg-base-100 ${styles.navContent__parent}`}>
+    <div
+      className={`navbar justify-between bg-base-100 ${styles.navContent__parent}`}
+    >
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
