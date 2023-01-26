@@ -4,6 +4,7 @@
   width: 96%;
   margin: 8px auto;
   padding: 10px;
+  background-color: #f7f7f7;
 }
 .navContent__container li a {
   font-family: "Poppins", "Times New Roman", Times, serif;
