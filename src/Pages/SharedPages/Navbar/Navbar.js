@@ -32,7 +32,7 @@ const Navbar = () => {
           </svg>
         </a>
         {/* nested nav */}
-        <ul className={`${styles.navbar__nestedNav} bg-gray-100`}>
+        <ul className={`${styles.navbar__nestedNav} bg-white`}>
           <li>service 1</li>
           <li>service 2</li>
           <li>service 3</li>

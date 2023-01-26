@@ -19,9 +19,10 @@
   margin: 2px;
   transition: 0.3s;
   cursor: pointer;
+  font-weight: 500;
 }
 .navbar__nestedNav li:hover {
-  color: white;
-  background: #55e0a3;
+  color: #55e0a3;
+  background: rgba(240, 240, 240, 0.499);
   border-radius: 6px;
 }
