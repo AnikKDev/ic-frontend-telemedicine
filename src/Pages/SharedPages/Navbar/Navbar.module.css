@@ -1,0 +1,27 @@
+.navContent__parent {
+  box-shadow: 0px 26px 17px -25px grey;
+  border-radius: 29px;
+  width: 96%;
+  margin: 8px auto;
+  padding: 10px;
+}
+.navContent__container li a:hover {
+  /* background-color: #80ffdb; */
+}
+.navbar__nestedNav {
+  border-radius: none;
+  width: 9rem;
+  transition: 0.5s;
+}
+.navbar__nestedNav li {
+  color: gray;
+  padding: 4px 10px;
+  margin: 2px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.navbar__nestedNav li:hover {
+  color: white;
+  background: #55e0a3;
+  border-radius: 6px;
+}
