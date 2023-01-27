@@ -1,0 +1,30 @@
+.navContent__parent {
+  box-shadow: 0px 26px 17px -25px grey;
+  border-radius: 29px;
+  width: 96%;
+  margin: 8px auto;
+  padding: 10px;
+  background-color: #f7f7f7;
+}
+.navContent__container li a {
+  font-family: "Poppins", "Times New Roman", Times, serif;
+}
+.navbar__nestedNav {
+  border-radius: none;
+  width: 11rem;
+  transition: 0.5s;
+}
+.navbar__nestedNav li {
+  color: gray;
+  padding: 4px 10px;
+  margin: 2px;
+  transition: 0.3s;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: "Poppins", "Times New Roman", Times, serif;
+}
+.navbar__nestedNav li:hover {
+  color: #55e0a3;
+  background: rgba(240, 240, 240, 0.499);
+  border-radius: 6px;
+}
