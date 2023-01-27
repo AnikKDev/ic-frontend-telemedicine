@@ -1,7 +1,9 @@
 import React from "react";
 import { RouterProvider } from "react-router-dom";
 import router from "./router/router";
-
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+AOS.init();
 function App() {
   // ! for toggling theme
   /* const [isDark, setIsDark] = useState(false);
