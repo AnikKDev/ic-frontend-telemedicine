@@ -3,7 +3,7 @@ import styles from "./TopBlogCard.module.css";
 const TopBlogCard = ({ blogData }) => {
   const { img, title, author, tags, time } = blogData;
   return (
-    <div className="card w-96 bg-base-100 transition-[0.8s] hover:cursor-pointer hover:scale-[1.01] hover:shadow-xl">
+    <div className="card w-full bg-base-100 transition-[0.8s] hover:cursor-pointer hover:scale-[1.01] hover:shadow-xl">
       <figure>
         <img src={img} alt="TeleMedIQ" />
       </figure>

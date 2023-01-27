@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./BenefitsCard.module.css";
-import { FaCanadianMapleLeaf } from "react-icons/fa";
+
 const BenefitsCard = ({ data }) => {
   return (
     <div className="">

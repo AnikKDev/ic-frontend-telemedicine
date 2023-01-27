@@ -29,14 +29,14 @@ const TopBlogs = () => {
     },
   ];
   return (
-    <div>
+    <div className="">
       <h1 className="text-5xl my-6 mb-16 font-['Libre-Baskerville']">
         Top{" "}
         <span className="text-secondary font-['Libre-Baskerville']">
           Blogs <AiOutlineSwapRight size={60} />
         </span>
       </h1>
-      <div className="grid grid-cols-3 justify-items-center">
+      <div className="w-full  grid grid-cols-3 gap-8 justify-items-center">
         {topBlogdata.map((blogData) => (
           <TopBlogCard key={Math.random().toString()} blogData={blogData} />
         ))}

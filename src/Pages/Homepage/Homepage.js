@@ -4,7 +4,7 @@ import TopBlogs from "./TopBlogs/TopBlogs";
 
 const Homepage = () => {
   return (
-    <div className="w-[95%] mx-auto">
+    <div className="w-full max-w-[90rem] mx-auto">
       {/* banner */}
       {/* services */}
       <Services />
