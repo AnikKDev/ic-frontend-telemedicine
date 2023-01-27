@@ -36,8 +36,8 @@
 }
 
 .services__container {
-  width: 95%;
-  margin: 20px auto;
+  /* width: 95%; */
+  /* margin: 20px auto; */
   height: 100%;
 }
 .services__imageContainer img {
