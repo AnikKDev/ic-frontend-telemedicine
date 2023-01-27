@@ -42,7 +42,8 @@ const Footer = () => {
       </footer>
       <div className="footer footer-center p-4 bg-base-300 text-base-content">
         <p>
-          Copyright © {new Date().getFullYear()} - All right reserved by Meow
+          Copyright © {new Date().getFullYear()} - All right reserved by
+          TeleMedIQ
         </p>
       </div>
     </>
