@@ -2,7 +2,6 @@ import React from "react";
 import { AiOutlineCheck } from "react-icons/ai";
 import "./ServicePoints.css";
 const ServicePoints = ({ des }) => {
-  console.log(des);
   return (
     <>
       <div className=" mt-8 my-2 text-left">

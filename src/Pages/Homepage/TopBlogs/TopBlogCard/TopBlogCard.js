@@ -27,7 +27,10 @@ const TopBlogCard = ({ blogData }) => {
         </div>
         <div className="card-actions justify-end">
           {tags.map((data) => (
-            <div className="badge border-none badge-outline bg-green-100 text-neutral font-semibold">
+            <div
+              key={Math.random().toString()}
+              className="badge border-none badge-outline bg-green-100 text-neutral font-semibold"
+            >
               #{data}
             </div>
           ))}

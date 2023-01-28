@@ -85,7 +85,7 @@ const Services = () => {
             className=""
           >
             {servicesData.map((data) => (
-              <SwiperSlide>
+              <SwiperSlide key={Math.random().toString()}>
                 <div className={`grid my-12 lg:grid-cols-2 items-center`}>
                   <div className={`services__imageContainer`}>
                     {/*background image */}
@@ -105,7 +105,10 @@ const Services = () => {
                       {/* content */}
                       <h1 className="text-5xl leading-relaxed">{data.title}</h1>
                       {data.description.map((des) => (
-                        <ServicePoints des={des} />
+                        <ServicePoints
+                          key={Math.random().toString()}
+                          des={des}
+                        />
                       ))}
                       {/* <ServicePoints /> */}
                     </div>

@@ -12,7 +12,7 @@ const Benefits = ({ servicesData }) => {
       className="grid p-4  rounded-md sm:gap-2 lg:gap-0 md:grid-cols-2 lg:grid-cols-4"
     >
       {servicesData.map((data) => (
-        <BenefitsCard data={data} />
+        <BenefitsCard key={Math.random().toString()} data={data} />
       ))}
     </div>
   );

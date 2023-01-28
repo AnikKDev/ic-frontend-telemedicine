@@ -1,4 +1,5 @@
 import React from "react";
+import Appointment from "../Appointment/Appointment";
 import Services from "./Services/Services";
 import TopBlogs from "./TopBlogs/TopBlogs";
 
@@ -10,6 +11,9 @@ const Homepage = () => {
       <Services />
       {/* top blogs */}
       <TopBlogs />
+
+      {/* for testing */}
+      <Appointment />
     </div>
   );
 };
